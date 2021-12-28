@@ -1,0 +1,47 @@
+# print("let Start")
+wm={
+  'name': "mean of name",
+  'hello': "is to greet",
+  'bye': "is to greet"
+
+}
+print('mean of bye'+wm['bye']);
+print(len(wm['bye']))
+print(type(wm))
+print(wm.keys())
+wm['nimal']="dog";
+print(wm)
+wm['hello']="hii to someone"
+print(wm)
+print(wm.items())
+
+if 'bye' in wm:
+  print('yes it is')
+  
+wm.update({'name':"tushar"})
+print(wm)
+# copy wm
+# wc=wm.copy();
+wc=dict(wm);
+print(wc)
+
+
+# tuples
+song=(("name","singer","class","year"));
+print(song);
+print(song[:2])
+print(len(song))
+# single tuple
+# single_tuple=("boy",);
+# print(single_tuple);
+# print(type(single_tuple))
+if "name" in song:
+  print("yes exist")
+y=list(song)
+y[0]="song name";
+print(y);
+newsong=tuple(y);
+print(newsong)
+print(type(newsong))
+# del newsong;
+print(newsong)
