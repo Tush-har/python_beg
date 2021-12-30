@@ -1,0 +1,52 @@
+# print(1==1)
+# print(1!=1)
+# print([]is[])
+# print(1+2)
+# print(1*2)
+# print(1/2)
+# print(1%2)
+# print(1-2)
+# x=True;
+# y=True;
+# print("and operation")
+# print(x & y);
+# print("or operation")
+# print(x or y)
+# print("x is y")
+# print(x is y);
+# a=10;
+# b=(1,2,10)
+# print(a in b)
+# print(True is 1)
+# print("A" == "a");
+# loops
+# for loop
+# for item in 'hii':
+#   print(item)
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+  
+#   print(x)
+
+# m=(1,2,3,4);
+# for x in m:
+#   print(x)
+# sum=0;
+# for i in range(0,100,8):
+ 
+#   sum=sum+i;
+# print('sum of number is ',sum)
+
+# # nested for
+# for i in range(0,4):
+#   for j in range(0,3):
+#     print(i,j);
+# i=9;
+# while(i<12):
+#   i=i+1;
+#   print(i)
+while True :
+  response = input('say something: ');
+  if(response=='bye'):
+    break
+print("exit out")
