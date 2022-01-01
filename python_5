@@ -1,0 +1,27 @@
+# //maximum of two numbers
+# print("Maximum of two numbers\n");
+# x=input("input number a: ");
+# y=input("input number b: ");
+# if x>y:
+#   print("a is great");
+# elif x==y:
+#     print("a and b is same");
+# else:
+#     print("b is great");
+# end of program
+# program for area of circle:
+
+# print("radius of circle");
+# x=float(input("enter "));
+# pi=3.14;
+# area=pi*(x*x);
+# print(area);
+# end ofprogram
+
+# Program to find simple intrest
+print("Calculate  simple intrest\n");
+p=float(input("Enter principal: "));
+r=float(input("Enter rate of intrest: "));
+t=float(input("Enter time: "));
+si=(p*r*t)/100;
+print(si)
